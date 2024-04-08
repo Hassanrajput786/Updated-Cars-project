@@ -1,0 +1,6339 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="utf-8">
+        <title>Update css Code</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <!-- font-awesome Link for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+
+       *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+       }
+       body{
+        font-family: "Plus Jakarta Sans", sans-serif;
+       }
+       .container {
+        max-width: 1440px;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+      header{
+                display: flex;
+                width: 90rem;
+                height: 7.75rem;
+                background: #ffffff;
+                border: .0625rem soSlid #C3D4E966;
+                align-items: center;
+      }
+      .logo{
+                width: 148px;
+                height: 44px;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 3rem;
+                color:#3563E9;
+             
+
+      }
+      .searchbar {
+               
+                    display: flex;
+                    width: 30.75rem;
+                    height: 2.75rem;
+                    background: #FFFFFF;
+                    border-radius: 2rem;
+                    padding: 0rem 0.75rem;
+                    margin-left: auto;
+}
+      .searchbar input{
+                
+                flex-grow: 1;
+                border-radius: 4.3rem;
+                border: 0.0625rem solid #C3D4E966;
+      }
+      .searchbar input::placeholder{
+       
+        font-weight: 700;
+        font-size: 0.875rem;
+        padding-left: 2rem;
+      }
+      .searchbar button{
+        width: 2.75rem;
+        height: 2.75rem;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      a{
+        text-decoration: none;
+      }
+        .menu {
+            display: flex;
+            margin-left: auto;
+            }
+      .menu ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        
+      }
+      .menu ul li {
+  padding: 0.4375rem;
+  font-size: 2.1rem;
+}
+      .menu ul li a img{
+        Width:2.75rem;
+        height: 2.75rem;
+        border-radius: 5.625rem;
+      }
+      .carss {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+      }
+      .carss img {
+  width: 406px;
+  height: 116px;
+  align-self: center;
+  justify-content: center;
+  z-index: 1;
+}
+     .carss h1{
+      font-size: 2rem;
+      font-weight:600 ;
+      width: 272px;
+      height: 96px;
+      color: #FFFFFF;
+      margin-left: 2rem;
+     }
+     .carss p{
+      font-size: 1rem;
+      font-weight:500 ;
+      width: 284px;
+      height: 48px;
+      color: #FFFFFF;
+      margin-left: 2rem;
+     }
+     .carss button {
+  width: 120px;
+  height: 44px;
+  padding: 0px 1.25rem 0px 1.25rem;
+  border-radius: .25rem 0px 0px 0px;
+  background: #3563E9;
+  border: none;
+  margin-left: 2rem;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+.car2 button{
+  background-color: #54A6FF;
+}
+     .car1{
+        width: 640px;
+        height: 360px;
+        border-radius:.625rem 0px 0px 0px;
+        opacity: 0px;
+        background: #54A6FF;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        overflow-x: hidden;
+        z-index: 1;
+        overflow-y: hidden;
+        position: relative;
+     }
+
+     .ellipse1 {
+  width: 775px;
+  height: 775px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: -2rem;
+  left: -9.5rem;
+}
+
+.ellipse2 {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 1rem;
+  left: -6rem;
+}
+.ellipse3 {
+  width: 525px;
+  height: 525px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 5rem;
+  left: -2rem;
+}
+.ellipse4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+}
+.ellipse5 {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 11rem;
+  left: 4.5rem;
+}
+.ellipse6 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 14rem;
+  left: 8rem;
+}
+.ellipse7 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+      .car2{
+        width: 640px;
+        height: 360px;
+        border-radius: .625rem 0px 0px 0px;
+        opacity: 0px;
+        background: #3563e9;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        overflow-x: hidden;
+        z-index: 2;
+        overflow-y: hidden;
+        position: relative;
+     }
+     #chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 50px;
+  width: 110px;
+  transform: rotate(-90deg);
+}
+    #chevron:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: #416cea;
+      transform: skew(0deg, 20deg);
+    }
+    #chevron::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: #416cea;
+  transform: skew(0deg, -20deg);
+}
+
+.rectangle1 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: -4rem;
+}
+.rectangle2 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 0rem;
+}
+.rectangle3 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+}
+.rectangle4 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 12rem;
+}
+.rectangle5 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 18rem;
+}
+.rectangle6 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 24rem;
+}
+.rectangle7 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 30rem;
+}
+.rectangle8 {
+  width: 75px;
+  height: 120px;
+  z-index: -1;
+  position: absolute;
+  top: 2rem;
+  left: 36rem;
+}
+.angle2 {
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+}
+.angle3 {
+  position: absolute;
+  top: 14rem;
+  left: 0rem;
+}
+                    .pick-up {
+                  width: 36rem;
+                  height: 8.25rem;
+                  border-radius: .625rem 0px 0px 0px;
+                  display: flex;
+                  justify-content: space-around;
+                  margin-left: 5rem;
+                  margin-top: -3rem;
+                }
+                .drop-up {
+                  width: 36.375rem;
+                  height:8.25rem;
+                  border-radius: 0.625rem 0px 0px 0px;
+                  display: flex;
+                  justify-content: space-around;
+                  margin-right: 3rem;
+                  margin-top: -3rem;
+                }
+                        
+                        .times {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-around;
+                        }
+                        .times span {
+                  width:2.75rem;
+                  height: 2.75rem;
+                  background: blue;
+                  color: white;
+                  font-size: 2rem;
+                  border-radius: .43rem;
+                  border: none;
+                  margin: 1rem 3rem;
+                    margin-top: 1rem;
+                    margin-right: 3rem;
+                  margin-top: 7rem;
+                  margin-right: -25rem;
+                }
+                  :is(.pick-up,.drop-up) button{
+                      background: none;
+                      border: none;
+                      padding-left: 1rem;
+                    }
+
+
+                    .timeing {
+                  display: flex;
+                  align-items: baseline;
+                  margin-left: -10rem;
+                }
+                .timeing1 {
+                  display: flex;
+                  align-items: baseline;
+                  margin-right: 15rem;
+                }
+                    .timeing button{
+                      width: .625rem;
+                      height: .25rem;
+                      border: none;
+                      font-size: 1.5rem;
+                      margin: 2rem 3rem;
+                      background: none;
+                    }
+                    .timeing1 button{
+                      width:.625rem;
+                      height: 0.25rem;
+                      border: none;
+                      font-size: 1.5rem;
+                      margin: 2rem 3rem;
+                      background: none;
+                    }
+                    .timeing h1{
+                      margin: 2rem -1rem;
+                    }
+                    .timetable {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                }
+
+
+
+
+
+                .popular {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width:82rem;
+                        height: 2.75rem;
+                        margin-left: 5rem;
+                        align-content: baseline;
+                      }
+                .popular h4{
+                  width: 5.75rem;
+                  height: 1.5rem;
+
+                }
+                .popular button {
+                  width: 6.5rem;
+                  height: 2.75rem;
+                  padding: 0px 1.25rem 0px 1.25rem;
+                  border-radius: 0.25rem 0px 0px 0px;
+                  background: none;
+                  border: none;
+                  color: blue;
+                  font-weight: bold;
+                }
+                .recomandation h3 {
+                  width: 180px;
+                  height: 24px;
+                  font-size: 16px;
+                  font-weight: 600;
+                  line-height: 20.16px;
+                  text-align: center;
+                  display: flex;
+                  justify-content: start;
+                  align-content: start;
+                  margin-left: 5rem;
+                  margin-top: -2rem;
+                }
+               :is(.popular-car, .popular-car2, .popular-car3){
+                  width:82rem;
+                  height:24.25rem;
+                  display: flex;
+                  flex-direction: row;
+                  margin-left: 3rem;
+                  margin-top: 2rem;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4){
+                  width: 19rem;
+                  height: 24.25rem;
+                  border-radius: .625rem 0px 0px 0px;
+                  margin: 0 2rem;
+                }
+                .details {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                  }
+                  :is(.catalog1, .catalog2, .catalog3, .catalog4) p {
+                    width: 140px;
+                    height: 24px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: -0.03em;
+                    text-align: left;
+
+                  }
+              
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) i{
+                  width: 24px;
+                    height: 24px;
+                    top: 1.5rem;
+                    left: 16rem;
+                    gap: 0px;
+                    opacity: 0px;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) span {
+                  font-size: 1rem;
+                  font-weight: initial;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) img{
+                      width: 232px;
+                      height:100px;
+                      margin-top: 4rem;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4)  .features {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      color: #90a3bf;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4)  .petrol {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .gear {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .seats {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4)  .deal {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+                      font-size: 20px;
+                      font-weight: 700;
+                      line-height: 25.2px;
+                      width: 116px;
+                      height: 44px;
+                      margin-top: .8rem;
+                    }
+
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+                      background: blue;
+                      border: none;
+                      color: white;
+                      width: 116px;
+                      height: 44px;
+                      Padding:0px, 20px, 0px, 20px;
+                      border-radius: 4px;
+                      margin-left: 2.5rem;
+                      margin-top: .5rem;
+                    }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) .price span{
+                      color: #90a3bf;
+                          font-size: 14px;
+                          font-weight: 700;
+                          line-height: 17.64px;
+                          text-align: left;
+
+                    }
+
+
+
+                    .show.more {
+                              display: flex;
+                              flex-direction: row;
+                              font-size: 1rem;
+                              justify-content: space-between;
+                              margin-left: 40rem;
+                            }
+
+                            .show.more button {
+                              color: white;
+                              background: blue;
+                              font-weight: bold;
+                              width: 156px;
+                              height: 44px;
+                              padding: 0px 20px 0px 20px;
+                              border-radius: 4px 0px 0px 0px;
+                            }
+
+                            .show.more h4 {
+                                color: gray;
+                                margin-right: 3rem;
+                                padding-top: 1rem;
+                              }
+
+
+
+                            .footerend {
+                              display: flex;
+                              flex-direction: row;
+                              justify-content: space-around;
+                              margin-top: 8rem;
+                            }
+                            .footer-description {
+                              display: flex;
+                              flex-direction: column;
+                              line-height: 2rem;
+                              margin-right: 25rem;
+                            }
+                            :is(.about, .coumunity, .social) {
+                              display: flex;
+                              flex-direction: column;
+                              line-height: 2.5rem;
+                              margin-top: -.5rem;
+                            }
+                            .footer-description h1 {
+                              color:#3563E9;
+                              padding-bottom: 2rem;
+                            }
+                            .termms {
+                              display: flex;
+                              flex-direction: row;
+                              justify-content: space-between;
+                              margin-top: 5rem;
+                              margin-left: 3rem;
+                              margin-right: 4rem;
+                            }
+@media only screen and (max-width: 1440px) {
+    .container {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1390px) {
+   .menu {
+    margin-right: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 1389px) and (min-width: 1350px) {
+ .menu {
+    margin-right: 5.2rem;
+  }
+  .popular {
+  margin-left: 3rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: 2rem;
+}
+}
+@media only screen and (max-width: 1349px) and (min-width: 1300px) {
+ .menu {
+    margin-right: 8.2rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -1rem;
+}
+.recomandation h3 {
+  margin-left: 0rem;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1250px) {
+  .recomandation h3 {
+  margin-left: 0rem;}
+   .menu {
+    margin-right: 11.2rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+:is(.car1, .car2) {
+ width: 600px;
+}
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+  margin-right: 5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #90a3bf;
+  width: 16rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) {
+    width: 18rem;
+    height: 23.25rem;
+    border-radius: .625rem 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  .ellipse1 {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: -2rem;
+  left: -8.5rem;
+}
+.ellipse2 {
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 1rem;
+  left: -7rem;
+}
+.ellipse3 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 5rem;
+  left: -3rem;
+}
+.ellipse4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 8rem;
+  left: -1rem;
+}
+.ellipse5 {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 11rem;
+  left: 2.5rem;
+}
+.ellipse6 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 14rem;
+  left: 6rem;
+}
+.angle3 {
+  position: absolute;
+  top: 15rem;
+  left: 0rem;
+}
+.angle2 {
+  position: absolute;
+  top: 7.5rem;
+  left: 3rem;
+}
+}
+@media only screen and (max-width: 1249px) and (min-width: 1200px) {
+  .recomandation h3 {
+  margin-left: 3rem;}
+  
+  .ellipse1 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -9.5rem;
+  }
+  .ellipse2 {
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -8rem;
+  }
+  .ellipse3 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: -4rem;
+  }
+  .ellipse4 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: -2rem;
+  }
+  .ellipse5 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+  }
+  .angle3 {
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+  .angle2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+   .menu {
+    margin-right: 15.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+ :is(.car1, .car2) {
+    width: 575px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 250px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -2rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+  .popular button {
+    margin-right: 10rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1150px) {
+  .recomandation h3 {
+  margin-left: 0rem;}
+  .ellipse1 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -9.5rem;
+  }
+  .ellipse2 {
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -8rem;
+  }
+  .ellipse3 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: -4rem;
+  }
+  .ellipse4 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: -2rem;
+  }
+  .ellipse5 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+  }
+  .angle3 {
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+  .angle2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+  .eellipse {
+  position: relative;
+  top: -15rem;
+  left: -3rem;
+}
+
+   .menu {
+    margin-right: 18.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -2rem;
+  }
+   :is(.car1, .car2) {
+    width: 525px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 250px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+    .popular button {
+    margin-right: 12rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+:is(.drop-up,.pick-up) {
+  width: 480px;
+}
+header {
+  width: 88rem;
+}
+
+}
+
+
+@media only screen and (max-width: 1149px) and (min-width: 1100px) {
+  .recomandation h3 {
+  margin-left: 4rem;}
+  .ellipse1 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -9.5rem;
+  }
+  .ellipse2 {
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -8rem;
+  }
+  .ellipse3 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: -4rem;
+  }
+  .ellipse4 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: -2rem;
+  }
+  .ellipse5 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+  }
+  .angle3 {
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+  .angle2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+  .eellipse {
+  position: relative;
+  top: -15rem;
+  left: -3rem;
+}
+
+  .menu {
+    margin-right: 21.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+  :is(.car1, .car2) {
+    width: 525px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 200px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 16rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+:is(.drop-up,.pick-up) {
+  width: 480px;
+}
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+  margin-right: 11rem;
+}
+.timeing {
+  margin-left: -12rem;
+}
+}
+
+@media only screen and (max-width: 1099px) and (min-width: 1050px) {
+  .recomandation h3 {
+  margin-left: 4rem;}
+  .ellipse1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -5.5rem;
+  }
+  .ellipse2 {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+  }
+  .ellipse3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+  }
+  .ellipse4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+  }
+  .ellipse5 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .angle3 {
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+  .angle2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+  .eellipse {
+  position: relative;
+  top: -15rem;
+  left: -3rem;
+}
+
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 24rem;
+  }
+  .logo {
+  font-size: 1.5rem;}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+  :is(.car1, .car2) {
+    width: 500px;
+  }
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 5rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 20rem;
+  }
+  .show.more {
+    margin-left: 29rem;
+  }
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -19rem;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1049px) and (min-width: 1000px) {
+  .recomandation h3 {
+  margin-left: 4rem;}
+  .ellipse1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -5.5rem;
+  }
+  .ellipse2 {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+  }
+  .ellipse3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+  }
+  .ellipse4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+  }
+  .ellipse5 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .angle3 {
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+  .angle2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+  .eellipse {
+    position: relative;
+    top: -15rem;
+    left: -5rem;
+  }
+
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 27rem;
+  }
+  .logo {
+  font-size: 1.5rem;}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 450px;
+  }
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 2rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 20rem;
+  }
+  .show.more {
+    margin-left: 29rem;
+  }
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+
+@media only screen and (max-width: 999px) and (min-width: 950px) {
+  
+  .ellipse1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -2rem;
+    left: -5.5rem;
+  }
+  .ellipse2 {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+  }
+  .ellipse3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+  }
+  .ellipse4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+  }
+  .ellipse5 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .eellipse {
+    position: relative;
+    top: -15rem;
+    left: -5rem;
+  }
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 30.2rem;
+  }
+  .logo {
+  font-size: 1.3rem;}
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 450px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 26rem;
+  }
+  .show.more {
+    margin-left: 25rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+  :is(.drop-up, .pick-up) {
+    width: 400px;
+    font-size: .7rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+.catalog4 {
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 949px) and (min-width: 900px) {
+  .ellipse1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -3.5rem;
+  }
+  .ellipse2 {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1rem;
+  }
+  .ellipse3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+  }
+  .ellipse4 {
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+  }
+  .ellipse5 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .eellipse {
+    position: relative;
+    top: -15rem;
+    left: -3rem;
+  }
+
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 33.2rem;
+  }
+  .logo {
+  font-size: 1.3rem;}
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 2rem;
+  }
+  :is(.car1, .car2) {
+    width: 425px;
+  }
+  .carss img {
+  width: 350px;
+  height: 116px;}
+
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 30rem;
+  }
+  .show.more {
+    margin-left: 25rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+.catalog4 {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 899px) and (min-width: 850px) {
+  .recomandation h3 {
+  margin-left: 3rem;}
+  .ellipse1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -3.5rem;
+  }
+  .ellipse2 {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1rem;
+  }
+  .ellipse3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+  }
+  .ellipse4 {
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+  }
+  .ellipse5 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 350px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 36.5rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0.5rem;
+  }
+  :is(.car1, .car2) {
+    width: 400px;
+  }
+  .carss img {
+    width: 346px;
+    height: 116px;
+  }
+
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+.popular button {
+    margin-right: 32rem;
+  }
+  .show.more {
+    margin-left: 24rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+
+@media only screen and (max-width: 849px) and (min-width: 800px) {
+  .recomandation h3 {
+  margin-left: 3rem;}
+  .ellipse1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -3.5rem;
+  }
+  .ellipse2 {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1rem;
+  }
+  .ellipse3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+  }
+  .ellipse4 {
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+  }
+  .ellipse5 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 3.5rem;
+  }
+  .ellipse6 {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+  }
+  .eellipse {
+    position: relative;
+    top: -15rem;
+    left: -6rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 350px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 39.8rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0.5rem;
+  }
+  :is(.car1, .car2) {
+    width: 375px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.8rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+.popular button {
+    margin-right: 33rem;
+  }
+  .show.more {
+    margin-left: 24rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+  .drop-up {
+    margin-right: 1.5em;
+  }
+.pick-up {
+    margin-left: 1.5rem;
+  }
+ .timeing1 {
+    margin-right: 10rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+  .times span {
+    margin-top: 7rem;
+    margin-right: -14rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+}
+
+
+@media only screen and (max-width: 799px) and (min-width: 750px) {
+  .recomandation h3 {
+  margin-left: 2rem;}
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -5rem;
+  }
+  .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1.5rem;
+  }
+  .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+  }
+  .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+  }
+  .ellipse7 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -3rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+ .menu {
+    margin-right: 42.3rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+  :is(.car1, .car2) {
+    width: 350px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.8rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+  .popular button {
+    margin-right: 36rem;
+  }
+   .show.more {
+    margin-left: 20rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+  :is(.drop-up, .pick-up) {
+    width: 320px;
+    font-size: .7rem;
+  }
+
+  .drop-up {
+    margin-right: .5em;
+  }
+.pick-up {
+    margin-left: .5rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+  .times span {
+    margin-top: 7rem;
+    margin-right: -12rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-right: 5rem;
+}
+}
+@media only screen and (max-width: 749px) and (min-width: 700px) {
+  .recomandation h3 {
+  margin-left: 0rem;}
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -5rem;
+  }
+  .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1.5rem;
+  }
+  .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+  }
+  .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+  }
+  .ellipse7 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .menu {
+    margin-right: 45.8rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 325px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+  .popular button {
+    margin-right: 40rem;
+  }
+   .show.more {
+    margin-left: 18rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 280px;
+    font-size: .6rem;
+  }
+
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-right: 5rem;
+}
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 650px) {
+  .recomandation h3 {
+  margin-left: 4rem;}
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -5rem;
+  }
+  .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1.5rem;
+  }
+  .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+  }
+  .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+  }
+  .ellipse7 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+   .menu {
+    margin-right: 49rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 300px;
+  }
+   .carss img {
+    width: 285px;
+    height: 100px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+   :is(.catalog1, .catalog2, .catalog3) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+   .popular button {
+    margin-right: 42rem;
+  }
+   .show.more {
+    margin-left: 18rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 280px;
+    font-size: .6rem;
+  }
+.catalog3 {
+  display: none;
+}
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+   .timeing {
+    margin-left: -5rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-right: 5rem;
+}
+}
+
+
+@media only screen and (max-width: 649px) and (min-width: 600px) {
+  .recomandation h3 {
+  margin-left: 2rem;}
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    left: -5rem;
+  }
+  .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1.5rem;
+  }
+  .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+  }
+  .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+  }
+  .ellipse7 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 20px solid #FFFFFF0F;
+  z-index: -1;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar {
+    width: 300px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .8rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+   .menu {
+    margin-right: 52.2rem;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  :is(.timeing, .timeing1) {
+    font-size: .7rem;
+  }
+
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+    :is(.car1, .car2) {
+    width: 285px;
+  }
+   .carss img {
+    width: 285px;
+    height: 100px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+   :is(.catalog1, .catalog2, .catalog3) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+   .popular button {
+    margin-right: 45rem;
+  }
+   .show.more {
+    margin-left: 14rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+     :is(.drop-up, .pick-up) {
+    width: 250px;
+    font-size: .6rem;
+  }
+.catalog3 {
+  display: none;
+}
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+   .timeing {
+    margin-left: -5rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 2.2rem;
+  background: none;
+} 
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-right: 5rem;
+}
+}
+
+@media only screen and (max-width: 599px) and (min-width: 550px) {
+  .recomandation h3 {
+  margin-left: 2rem;}
+  .ellipse1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 3rem;
+    left: -3rem;
+}
+.ellipse2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 0.5rem;
+}
+.ellipse3 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 9rem;
+    left: 3.5rem;
+}
+.ellipse4 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11.5rem;
+    left: 6.5rem;
+}
+.ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 8.5rem;
+}
+.ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 12rem;
+}
+.ellipse7 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: -3.5rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .road {
+  height: 7rem;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+
+.searchbar {
+    display: flex;
+    width: 263px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -2rem;
+  }
+.menu ul li {
+padding: 7px;
+width: 48px;
+height: 48px;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+.carss h1 {
+font-size: 1.2rem;
+font-weight: 600;
+width: 17.25rem;
+height: 6rem;
+color: #FFFFFF;
+margin-left: 2rem;
+
+}
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: -1.7rem;
+  }
+.carss button {
+  width: 128px;
+height: 44px;
+  border-radius: .25rem 0px 0px 0px;
+  background: #3563E9;
+  border: none;
+  margin-left: 2rem;
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 55.9rem;
+    margin-top: -2rem;
+  }
+  .logo {
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+    margin-top: -2rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 2rem;
+  }
+:is(.car1) {
+    width: 500px;
+  }
+  .carss img {
+    width: 300px;
+    height: 130px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+width: 70px;
+height: 30px;
+opacity: 0px;
+border-radius: .3rem;
+margin-left: -0.5rem;
+margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 7.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+  width: 15.5rem;
+  height: 5.3rem;
+  margin-top: 4rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+    width: 225px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+margin-left: 2rem;
+}
+.popular button {
+    margin-right: 47rem;
+  }
+ .show.more {
+  margin-left: 14rem;
+}
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 500px;
+    font-size: .9rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 3em;
+    margin-top: 1rem;
+  }
+.pick-up {
+    margin-top: -9.5rem;
+    margin-left: 2.5rem;
+  }
+  .timeing1 {
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+.timeing {
+    margin-left: 1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+}
+  
+@media only screen and (max-width: 549px) and (min-width: 500px) {
+  .recomandation h3 {
+  margin-left: 3rem;}
+  .ellipse1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 3rem;
+    left: -5rem;
+}
+.ellipse2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: -1.5rem;
+}
+.ellipse3 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 9rem;
+    left: 1.5rem;
+}
+.ellipse4 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 11.5rem;
+    left: 4.5rem;
+}
+.ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 6.5rem;
+}
+.ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 12rem;
+}
+.ellipse7 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    left: -5.5rem;
+}
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.searchbar {
+    display: flex;
+    width: 350px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -3rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+.carss h1 {
+font-size: 1.2rem;
+font-weight: 600;
+width: 17.25rem;
+height: 6rem;
+color: #FFFFFF;
+margin-left: 2rem;
+}
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: -1.7rem;
+  }
+  .carss button {
+    width: 128px;
+    height: 44px;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 58.9rem;
+    margin-top: -2rem;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    margin-top: -2rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -3rem;
+}
+:is(.car1) {
+    width: 450px;
+  }
+  .carss img {
+    width: 300px;
+    height: 130px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.popular-car2, .popular-car3) .catalog2 {
+  display: none;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .features{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #90a3bf;
+}
+
+:is(.popular-car2, .popular-car3) .catalog1 .petrol {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-left: 22rem;
+  margin-top: -8rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .gear {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-left: 22rem;
+  margin-top: -5rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .seats {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-left: 22rem;
+  margin-top: -5rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .features h5{
+padding-left: 1rem;
+}
+
+:is(.popular-car2, .popular-car3) .catalog1 img{
+  width: 20rem;
+  height: 10rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 4.5rem;
+    margin-top: .6rem;
+  }
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 6.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 22.5rem;
+    height: 7.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 350px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+ 
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+  .catalog3 {
+display: none;
+}
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+.popular button {
+    margin-right: 50rem;
+  }
+   .show.more {
+    margin-left: 10rem;
+  }
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+
+.drop-up {
+    margin-left: 2em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 1.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+}
+
+
+@media only screen and (max-width: 499px) and (min-width: 450px) {
+  .recomandation h3 {
+    margin-left: 2.5rem;
+  }
+  
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+  }
+  .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 3.5rem;
+  }
+  .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 5.5rem;
+  }
+  .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 13rem;
+    left: 7.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+  }
+  .ellipse7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 18rem;
+    left: 13rem;
+  }
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.searchbar {
+    display: flex;
+    width: 350px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -6rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 61.5rem;
+    margin-top: -2rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+.searchbar button {
+font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0.9rem;
+  }
+  .catalog3 {
+display: none;
+}
+ :is(.car1) {
+    width: 425px;
+    height: 310px;
+  }
+ .carss img {
+    width: 300px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 5.5rem;
+    margin-top: .6rem;
+  }
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 6.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+ :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 18.5rem;
+    height: 8.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 350px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  
+ :is(.popular-car2, .popular-car3) .catalog2 {
+  display: none;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .features{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #90a3bf;
+}
+
+:is(.popular-car2, .popular-car3) .catalog1 .petrol {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-left: 19rem;
+  margin-top: -8rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .gear {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+ margin-left: 19rem;
+  margin-top: -5rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .seats {
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-left: 19rem;
+  margin-top: -5rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .features h5{
+padding-left: 1rem;
+}
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 55rem;
+  }
+  .show.more {
+    margin-left: 10rem;
+  }
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+  }
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .6rem;
+    margin-bottom: 1rem;
+  }
+  .social {
+  width: 27rem;
+  margin-top: 2rem;
+}
+ .coumunity {
+    width: 9rem;
+    margin-left: 4rem;
+  }
+  .about {
+    width: 13rem;
+    margin-left: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 449px) and (min-width: 400px) {
+  .recomandation h3 {
+    margin-left: 1.5rem;
+  }
+  .ellipse1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 2rem;
+    left: -1rem;
+  }
+    .ellipse2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+  }
+    .ellipse3 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 4.5rem;
+  }
+   .ellipse4 {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+  }
+  .ellipse5 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+  }
+  .ellipse6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+  }
+  .ellipse7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 18rem;
+    left: 13rem;
+  }
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+
+  .searchbar {
+    display: flex;
+    width: 250px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -5rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 64.5rem;
+    margin-top: -1rem;
+  }
+  .logo {
+    font-size: 1rem;
+    margin-top: -1.1rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+.searchbar button {
+font-size: 1.5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: .5rem;
+  }
+  .catalog3 {
+display: none;
+}
+:is(.car1) {
+    width: 400px;
+    height: 20.5rem;
+  }
+  .carss img {
+    width: 300px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: -0.5rem;
+    margin-top: .6rem;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 15.5rem;
+    height: 7.3rem;
+    margin-top: 4rem;
+  }
+  
+ :is(.popular-car2, .popular-car3) .catalog2 {
+  display: none;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .features{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #90a3bf;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #90a3bf;
+  width: 16rem;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 16rem;
+}
+
+  :is(.popular-car2, .popular-car3) .catalog1 .petrol {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.5rem;
+    margin-left: 16rem;
+    margin-top: -8rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .gear {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.5rem;
+    margin-left: 16rem;
+    margin-top: -5rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .seats {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.5rem;
+    margin-left: 16rem;
+    margin-top: -5rem;
+  }
+:is(.popular-car2, .popular-car3) .catalog1 .features h5{
+padding-left: 1rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 16.5rem;
+    height: 7.3rem;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+    margin-left: 1rem;
+  }
+ 
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 55rem;
+  }
+  .show.more {
+    margin-left: 10rem;
+  }
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 400px;
+    font-size: .7rem;
+  }
+
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 4rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .6rem;
+    margin-bottom: 1rem;
+  }
+   .social {
+  width: 27rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+ .coumunity {
+    width: 9rem;
+    margin-left: 4rem;
+  }
+  .about {
+    width: 11rem;
+    margin-left: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 399px) and (min-width: 350px) {
+  .recomandation h3 {
+  width: 142px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+  .fa-magnifying-glass::before, .fa-search::before {
+  content: "\f002";
+  width: 24px;
+  height: 24px;
+  font-size: 1.7rem;
+}
+.fa-sliders-h::before, .fa-sliders::before {
+  content: "\f1de";
+  font-size: 1.5rem;
+}
+.ellipse1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 4rem;
+    left: -1.8rem;
+  }
+  .ellipse2 {
+    width: 335px;
+    height: 335px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 0rem;
+  }
+  .ellipse3 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1.5rem;
+  }
+  .ellipse4 {
+    width: 206px;
+    height: 206px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: 3.5rem;
+  }
+  .ellipse5 {
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 12rem;
+    left: 5.5rem;
+  }
+  .ellipse6 {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 7.5rem;
+  }
+  .ellipse7 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+  }
+
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.timeing h1 {
+  margin: 2rem -1rem;
+width: 68px;
+height: 20px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+.timeing1 h1 {
+  margin: 2rem 0rem;
+width: 68px;
+height: 20px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+  .searchbar {
+    display: flex;
+    width: 200px;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-left: -5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #90a3bf;
+  width: 204px;
+}
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 240px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+.carss p {
+  
+    width: 216px;
+    height: 38px;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+
+  }
+ .carss button {
+    width: 120px;
+    height: 45px;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 14px;
+  }
+.car2 {
+  display: none;
+}
+ .menu {
+    margin-right: 67.6rem;
+    margin-top: -3rem;
+  }
+   .logo {
+    width: 108px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    margin-top: -3.5rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .8rem;
+}
+
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+  .searchbar button {
+    font-size: 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+  width: 82rem;
+  height: 19.25rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+  :is(.car1) {
+    width: 327px;
+      height: 232px;
+      border-radius: 10px 0px 0px 0px;
+  }
+  .carss img {
+    width: 196px;
+height: 56px;
+
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+    width: 42px;
+    height: 40px;
+    background: blue;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: none;
+    margin: -0.2rem 8.3rem;
+    padding: .3rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    border-radius: .3rem;
+    margin-left: -2.5rem;
+    margin-top: .6rem;
+    width: 90px;
+    height: 35px;
+  }
+  .popular-car .catalog2{
+    display: block;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.6rem;
+    margin-top: -.8rem;
+    align-content: center;
+    display: flex;
+  }
+  :is(.catalog1, .catalog2, .catalog3) .deal h1 {
+    font-size: 1.1rem;
+    width: 10rem;
+    margin-top: .9rem;
+  }
+:is(.catalog1, .catalog2, .catalog3) {
+    width: 240px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    margin-top: 4rem;
+    width: 180px;
+    height: 56px;
+  }
+  
+  :is(.popular-car2, .popular-car3) .catalog1 .petrol {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: 12.3rem;
+    margin-top: -6rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .gear {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: -3.9rem;
+    margin-top: -3.5rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .seats {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: -5.7rem;
+    margin-top: -1.5rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 img{
+    margin-top: 4rem;
+    width: 142px;
+    height: 64px;
+
+  }
+
+   :is(.popular-car2, .popular-car3) .catalog1 .features h5 {
+    padding-left: 1rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) p {
+  width: 116px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 220px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+
+  }
+  .popular button {
+    margin-right: 58rem;
+font-size: 12px;
+  }
+  .show.more {
+    margin-left: 8rem;
+  }
+  .show.more button {
+    padding: .4rem;
+width: 120px;
+height: 36px;
+  }
+
+:is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+  :is(.drop-up, .pick-up) p {
+    font-size: .7rem;
+    padding-top: .4rem;
+  } 
+
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: -1rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -2rem;
+  }
+  .times span {
+    margin-top: 4rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 26rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+    font-size: .9rem;
+  }
+  .footer-description h1 {
+    color: #3563E9;
+    padding-bottom: 1rem;
+    font-size: 24px;
+    width: 216px;
+  }
+  .footer-description p {
+  width: 245px;
+}
+
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+  font-size: .8rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .5rem;
+    margin-bottom: 1rem;
+  }
+  .social {
+  width: 27rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+ .coumunity {
+    width: 120px;
+    margin-left: 4rem;
+  }
+   .about {
+    width: 142px;
+    margin-left: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 349px) and (min-width: 320px) {
+  .recomandation h3 {
+    width: 142px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-content: start;
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+  
+.ellipse1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 4rem;
+    left: -1.8rem;
+  }
+  .ellipse2 {
+    width: 335px;
+    height: 335px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 6rem;
+    left: 0rem;
+  }
+  .ellipse3 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 8rem;
+    left: 1.5rem;
+  }
+  .ellipse4 {
+    width: 206px;
+    height: 206px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: 3.5rem;
+  }
+  .ellipse5 {
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 12rem;
+    left: 5.5rem;
+  }
+  .ellipse6 {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 14rem;
+    left: 7.5rem;
+  }
+  .ellipse7 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #FFFFFF0F;
+    z-index: -1;
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+  }
+
+.eellipse {
+    position: relative;
+    top: -15rem;
+    left: -4rem;
+  }
+  .catalog4 {
+  display: none;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+
+  .searchbar {
+    display: flex;
+    width: 200px;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-left: -7rem;
+  }
+  .fa-magnifying-glass::before, .fa-search::before {
+    content: "\f002";
+    width: 24px;
+    height: 24px;
+    font-size: 1.6rem;
+  }
+  .fa-sliders-h::before, .fa-sliders::before {
+    content: "\f1de";
+    font-size: 1.4rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 240px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .carss p {
+    width: 216px;
+    height: 38px;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+  }
+  .carss button {
+    width: 120px;
+    height: 45px;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 14px;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 69.5rem;
+    margin-top: -3rem;
+  }
+  .logo {
+    width: 108px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    margin-top: -3.5rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .8rem;
+}
+.timeing h1 {
+    margin: 2rem -1rem;
+    width: 68px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .timeing1 h1 {
+    margin: 2rem 0rem;
+    width: 68px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  :is(.drop-up, .pick-up) p {
+    font-size: .7rem;
+    padding-top: .4rem;
+  }
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+  .searchbar button {
+    font-size: 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) p {
+    width: 116px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  :is(.car1) {
+    width: 310px;
+    height: 232px;
+    border-radius: 10px 0px 0px 0px;
+  }
+  .carss img {
+    width: 196px;
+    height: 56px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.popular-car2, .popular-car3) .catalog1 .petrol {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: 12.3rem;
+    margin-top: -6rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .seats {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: -5.7rem;
+    margin-top: -1.5rem;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .gear {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    font-size: 1.1rem;
+    margin-left: -3.9rem;
+    margin-top: -3.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    border-radius: .3rem;
+    margin-left: -2.5rem;
+    margin-top: .6rem;
+    width: 90px;
+    height: 35px;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.6rem;
+    margin-top: -.8rem;
+    align-content: center;
+    display: flex;
+    padding-right: 7px;
+  }
+  :is(.catalog1, .catalog2, .catalog3) .deal h1 {
+    font-size: 1.1rem;
+    width: 10rem;
+    margin-top: 1rem;
+  }
+  .show.more button {
+    padding: .4rem;
+    width: 120px;
+    height: 36px;
+  }
+.popular-car .catalog2 {
+    display: block;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    margin-top: 4rem;
+    width: 180px;
+    height: 56px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #90a3bf;
+    width: 204px;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 img {
+    margin-top: 4rem;
+    width: 142px;
+    height: 64px;
+  }
+  :is(.popular-car2, .popular-car3) .catalog1 .features h5 {
+    padding-left: 1rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 220px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+  }
+  .popular button {
+    margin-right: 60.5rem;
+    font-size: 12px;
+  
+  }
+  .show.more {
+    margin-left: 6rem;
+  }
+  .show.more button {
+    padding: .4rem;
+  }
+
+  :is(.drop-up, .pick-up) {
+    width: 300px;
+    font-size: .6rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 2em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 1.1rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -2rem;
+  }
+    .times span {
+    width: 42px;
+    height: 40px;
+    background: blue;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: none;
+    margin: -0.2rem 8.3rem;
+    margin-top: 3.8rem;
+    margin-right: 8.3rem;
+    padding: .3rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description h1 {
+    color: #3563E9;
+    padding-bottom: 1rem;
+    font-size: 24px;
+    width: 216px;
+  }
+  .footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+  font-size: .9rem;
+}
+.footer-description p {
+    width: 245px;
+  }
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+  font-size: .8rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .4rem;
+    margin-bottom: 1rem;
+  }
+   .social {
+  width: 27rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+ .coumunity {
+    width: 9rem;
+    margin-left: 4rem;
+  }
+   .about {
+    width: 6rem;
+    margin-left: 1rem;
+   }
+   
+}
+
+    </style>
+</head>
+<body>
+ <div class="container">
+
+
+    <header>
+            <div class="logo">
+                <h1>MORANT</h1>
+            </div>
+            <div class="searchbar">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search Some thing here ..." name="search">
+                    <button><i class="fa-solid fa-sliders"></i></button>
+            </div>
+        <nav class="menu">
+            <ul>
+                <li><a href=""><i class="fa-solid fa-heart" style="color: gray;"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bell" style="color: gray"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-gear" style="color: gray"></i></a></li>
+                <li><a href=""><img src="Profil.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div class="carss">
+            <div class="car1">
+              <h1>The Best Platform for Car Rental</h1>
+              <p>Ease of doing a car rental safely and  <br> reliably.Of course at a low price.</p>
+              
+              <button>Rental Car</button> 
+              <div class="eellipse">
+<div class="ellipse1"> </div>
+<div class="ellipse2"> </div>
+<div class="ellipse3"> </div>
+<div class="ellipse4"> </div>
+<div class="ellipse5"> </div>
+<div class="ellipse6"> </div>
+<div class="ellipse7"> </div>
+                   </div>
+                <img src="image 7.png" alt="">
+            </div>
+                <div class="car2">
+                  <h1>Easy way to rent low price</h1>
+                  <p>Providing cheap car rental services <br> safe and comfortable facilities.</p>
+                  <button>Rental Car</button>
+                 <div class="angle1">
+                    <div class="rectangle1">
+                      <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle2">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle3">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle4">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle5">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle6">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle7">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle8">
+                        <div id="chevron"></div>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="angle2">
+                    <div class="rectangle1">
+                      <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle2">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle3">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle4">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle5">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle6">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle7">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle8">
+                        <div id="chevron"></div>
+                      </div>
+                    </div>
+
+
+
+
+
+                    <div class="angle3">
+                    <div class="rectangle1">
+                      <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle2">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle3">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle4">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle5">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle6">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle7">
+                        <div id="chevron"></div>
+                      </div>
+
+                      <div class="rectangle8">
+                        <div id="chevron"></div>
+                      </div>
+                    </div>
+                <img src="image 8.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="times">
+       <div class="timeing">
+          <button><i class="fa-regular fa-circle-dot"></i></button>
+         <h1>Pick-Up</h1>
+        </div>
+ <span><i class="fa-solid fa-arrow-down-up-across-line"></i></span>
+ <div class="timeing1">
+          <button><i class="fa-regular fa-circle-dot"></i></button>
+          <h1>Drop-Up</h1>
+        </div>
+      </div>
+
+
+
+
+      <div class="timetable">
+         <div class="pick-up">
+         <div class="location">
+          <h2>Location</h2>
+          <p>Select your City <button><i class="fa-solid fa-chevron-down"></i></button></p>
+         </div>
+        <div class="Date">
+          <h2>Date</h2>
+          <p>Select your Date <button><i class="fa-solid fa-chevron-down"></i></button></p>
+        </div>
+        <div class="Time">
+          <h2>Time</h2>
+          <p>Select your Time <button><i class="fa-solid fa-chevron-down"></i></button></p>
+        </div>
+        </div> 
+
+        <div class="drop-up">
+          <div class="location">
+           <h2>Location</h2>
+           <p>Select your City <button><i class="fa-solid fa-chevron-down"></i></button></p>
+          </div>
+         <div class="Date">
+           <h2>Date</h2>
+           <p>Select your Date <button><i class="fa-solid fa-chevron-down"></i></button></p>
+         </div>
+         <div class="Time">
+           <h2>Time</h2>
+           <p>Select your Time <button><i class="fa-solid fa-chevron-down"></i></button></p>    
+         </div>  
+         </div>  
+        </div>
+ 
+
+    </section>
+
+<main>
+<div class="popular">
+  <h4>Popular</h4>
+  <button>View All</button>
+</div>
+
+          <div class="popular-car">
+
+             <div class="catalog1">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="image 7.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog2">
+              <div class="details">
+                <p>Nissan GT-R
+                  <span>Sport</span>
+                </p>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+               
+              <img src="image 8.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog3">
+              <div class="details">
+                <p>Rolls-Royals
+                  <span>Sedan</span>
+                </p>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+               
+              <img src="car 9.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+
+             <div class="catalog4">
+              <div class="details">
+                <p>Nissan GT-R
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="car 10.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+             
+
+          </div>
+
+
+
+          <div class="recomandation">
+            <h3>Recomandation Cars</h3>  
+          </div>
+          <div class="popular-car2 pc2">
+            <div class="catalog1">
+              <div class="details">
+                <p>All New Rush
+                  <span>SUV</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="Car (1).png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog2">
+              <div class="details">
+                <p>CR-V
+                  <span>SUV</span>
+                </p>
+                <i class="fa-regular fa-heart" style="color: black;"></i>
+              </div>
+               
+              <img src="Car (2).png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog3">
+              <div class="details">
+                <p>New-Teries
+                  <span>SUV</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="Car (3).png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+
+             <div class="catalog4">
+              <div class="details">
+                <p>Cr-V
+                  <span>SUV</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="Car.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+          </div>
+
+
+
+
+         <div class="popular-car3  pc3 ">
+
+          <div class="catalog1">
+            <div class="details">
+              <p>MGZX E
+                <span>Hatchback</span>
+              </p>
+              <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+            </div>
+             
+            <img src="Car (5).png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>3Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+           <div class="catalog2">
+            <div class="details">
+              <p>New MGZX
+                <span>SUV</span>
+              </p>
+              <i class="fa-regular fa-heart" style="color: black;"></i>
+            </div>
+             
+            <img src="Car (6).png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+           <div class="catalog3">
+            <div class="details">
+              <p>MGZX Excite
+                <span>Hitchback</span>
+              </p>
+              <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+            </div>
+             
+            <img src="Car (7).png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+
+           <div class="catalog4">
+            <div class="details">
+              <p>New MGZS
+                <span>Hetchback</span>
+              </p>
+              <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+            </div>
+             
+            <img src="Car (8).png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+        </div>
+
+       <div class="show more">
+        <button>Show More Car</button>
+        <h4>120Cars</h4>
+      </div>
+</main>
+
+
+
+
+<footer class="footerend">
+
+<div class="footer-description">
+  <h1>MORANT</h1>
+
+  <p>
+    Our vision is to provide convenience<br> and  increase your sales business.
+  </p>
+</div>
+
+<div class="about">
+<h3>About</h3>
+<span>How it works</span>
+<span>Partnership </span>
+<span>Bussiness Relation</span>
+<span> Featured</span>
+</div>
+<div class="coumunity">
+  <h3>Comunity</h3>
+  <span>Events </span>
+  <span>Blog  </span>
+  <span>Invite a friend</span>
+  <span>Podcast</span>
+</div>
+<div class="social">
+  <h3>Social</h3>
+  <span>Discord </span>
+  <span>Instagram</span>
+  <span>Twitter </span>
+  <span>Facebook</span>
+</div>
+
+
+</footer>
+
+<div class="termms">
+  <h3>©2022 MORENT. All rights reserved</h3>
+  <h4>Privacy & Policy</h4>
+  <h4>Terms & Condition</h4>
+</div>
+
+</div>
+
+
+</body>
+</html>
